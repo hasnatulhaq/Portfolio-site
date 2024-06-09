@@ -1,8 +1,86 @@
 <html>
     <head>
-
+         <meta name="viewport" content="width=device-width, initial-scale=1.0">
+         <title>Hasnat ul haq</title>
+         <link rel="stylesheet" href="style.css">
     </head>
     <body>
-        <h1>hello world</h1>
+        <nav class="navbar">
+            <div class="logo-container">
+                <!-- <img src="path/to/logo.png" alt="Logo" class="logo"> -->
+                <span class="logo-text">Hasnat ul haq</span>
+            </div>
+            <ul class="nav-menu">
+                <li class="nav-item"><a href="#about" class="nav-link">About</a></li>
+                <li class="nav-item"><a href="#resume" class="nav-link">Resume</a></li>
+                <li class="nav-item"><a href="#works" class="nav-link">Works</a></li>
+                <li class="nav-item"><a href="#contact" class="nav-link">Contact</a></li>
+            </ul>
+        </nav>
+        <div class="banner">
+            <h1 class="banner-title">Hasnat ul Haq</h1>
+            <p class="banner-subtitle">I'm a software developer</p>
+            <div class="social-links">
+                <a href="https://github.com/hasnatulhaq123" target="_blank" class="social-link">GitHub</a>
+                <a href="https://www.linkedin.com/in/hasnatulhaq123/" target="_blank" class="social-link">LinkedIn</a>
+                <a href="https://api.whatsapp.com/send?phone=YOUR_PHONE_NUMBER" target="_blank" class="social-link">WhatsApp</a>
+            </div>
+            <a href="#contact" class="contact-button">Contact</a>
+        </div>
+        
+        <section id="about" class="about-section">
+            <h2 class="about-title">About</h2>
+            <p class="about-text">I am a software developer with 2 years of hands-on experience in web development and mobile app development.</p>
+        </section>
+        
+        <section id="skills" class="skills-section">
+            <h2 class="skills-title">Skills</h2>
+            <ul class="skills-list">
+                <li class="skill-item">HTML</li>
+                <li class="skill-item">CSS</li>
+                <li class="skill-item">JavaScript</li>
+                <li class="skill-item">React.js</li>
+                <li class="skill-item">Next.js</li>
+                <li class="skill-item">Node.js</li>
+            </ul>
+        </section>
+        <section id="services" class="services-section">
+            <h2 class="services-title">Services</h2>
+            <div class="services-container">
+                <div class="service">
+                    <img src="web-development-icon.png" alt="Web Development">
+                    <h3>Web Development</h3>
+                    <p>I offer professional web development services using the latest technologies and frameworks.</p>
+                </div>
+                <div class="service">
+                    <img src="mobile-development-icon.png" alt="Mobile Development">
+                    <h3>Mobile Development</h3>
+                    <p>Get your mobile applications developed with cutting-edge technologies for both iOS and Android platforms.</p>
+                </div>
+                <div class="service">
+                    <img src="ui-ux-design-icon.png" alt="UI/UX Design">
+                    <h3>UI/UX Design</h3>
+                    <p>I provide stunning and user-friendly UI/UX designs to enhance the overall user experience of your applications.</p>
+                </div>
+            </div>
+        </section>
+        <footer class="footer-section">
+            <div class="contact-info">
+                <p>Email: <a href="mailto:abc@example.com">hasnatulhaq@outlook.com</a></p>
+                <p>Phone: 03055168778</p>
+            </div>
+            <div class="contact-form">
+                <form action="#" method="POST">
+                    <input type="text" name="name" placeholder="Your Name" required>
+                    <input type="email" name="email" placeholder="Your Email" required>
+                    <input type="text" name="subject" placeholder="Subject" required>
+                    <textarea name="message" placeholder="Your Message" rows="4" required></textarea>
+                    <button type="submit">Submit</button>
+                </form>
+            </div>
+            <div class="copyright">
+                <p>&copy; 2024 hasnatulhaq.com. All Rights Reserved.</p>
+            </div>
+        </footer>        
     </body>
 </html>
